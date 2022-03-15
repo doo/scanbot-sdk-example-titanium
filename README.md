@@ -39,7 +39,7 @@ Titanium SDK also requires a compatible JDK; take note of which version you have
 Be sure to install a compatible JDK, and to set your JAVA_HOME in `run-android.sh` accordingly.
 
 
-**Minor note**: if you have a bad experience in downloading, installing and dealing with multiple JDK versions installed on the same machine, we reccomend using [sdkman](https://sdkman.io/install), which has a very intuitive command line syntax to list available JDK versions and switch between them.
+**Minor note**: if you have a bad experience in downloading, installing and dealing with multiple JDK versions installed on the same machine, we recommend using [sdkman](https://sdkman.io/install), which has a very intuitive command line syntax to list available JDK versions and switch between them.
 
 
 ## Run the demo on an Android Device
