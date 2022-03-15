@@ -51,3 +51,13 @@ To build and run the demo on an Android device, we provided a simple script:
 ```
 
 Before running it, connect your Android device via USB with debug mode enabled in the developer options.
+
+## Please note
+
+The Scanbot SDK will run without a license for one minute per session!
+
+After the trial period has expired all Scanbot SDK functions as well as the UI components (like the Document Scanner UI) will stop working or may be terminated.
+You have to restart the app to get another trial period.
+
+To get an unrestricted, "no-strings-attached" 30-day trial license, please submit the [Trial License Form](https://scanbot.io/en/sdk/demo/trial) on our website.
+
