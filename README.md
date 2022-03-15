@@ -6,13 +6,25 @@ For the purpose of demonstrating the functionalities, only the Android part has 
 
 ## Requirements
 
-In order to run this project you will need to install Titanium SDK. You can install the latest version by running:
+In order to run this project you will need to install Titanium CLI. You can install the latest version by running:
 
 ```bash 
 npm install -g titanium
 ```
 
-Titanium SDK also requires a compatible JDK:
+Now you can install Titanium SDK; you can choose a specific version or just install the latest one:
+
+```bash 
+
+# Install the latest Titanium SDK version
+titanium sdk install
+
+# ...or install a specific version
+titanium sdk install 10.1.1.GA
+
+```
+
+Titanium SDK also requires a compatible JDK; take note of which version you have installed and check this compatibility table:
 
 | Titanium SDK Version | Min JDK Version | Max JDK version |
 |----------------------|-----------------|-----------------|
@@ -23,7 +35,12 @@ Titanium SDK also requires a compatible JDK:
 | 7.5.0 - 8.3.1        |               8 |              14 |
 | 7.0.0 - 7.4.2        |               8 |              10 |
 
+
 Be sure to install a compatible JDK, and to set your JAVA_HOME in `run-android.sh` accordingly.
+
+
+**Minor note**: if you have a bad experience in downloading, installing and dealing with multiple JDK versions installed on the same machine, we reccomend using [sdkman](https://sdkman.io/install), which has a very intuitive command line syntax to list available JDK versions and switch between them.
+
 
 ## Run the demo on an Android Device
 
