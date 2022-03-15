@@ -1,0 +1,11 @@
+._*
+.DS_Store
+npm-debug.log
+node_modules
+junit_report.xml
+retirejs.output.json
+coverage/
+.nyc_output/
+build/
+build.log
+.vscode
