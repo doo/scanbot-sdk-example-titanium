@@ -2,8 +2,6 @@
 
 This very basic project demonstrates how it is possible to integrate Scanbot SDK into a pure Titanium project.
 
-For the purpose of demonstrating the functionalities, only the Android part has been fully integrated and can be tested with this demo.
-
 ## Requirements
 
 In order to run this project you will need to install Titanium CLI. You can install the latest version by running:
@@ -51,6 +49,16 @@ To build and run the demo on an Android device, we provided a simple script:
 ```
 
 Before running it, connect your Android device via USB with debug mode enabled in the developer options.
+
+## Run the demo on an Android Device
+
+To build and run the demo on an iOS device, you can execute:
+
+```bash
+./run-ios.sh
+```
+
+Before running it, connect your iOS device via USB, and make sure you have authorized your PC for debugging.
 
 ## Please note
 
