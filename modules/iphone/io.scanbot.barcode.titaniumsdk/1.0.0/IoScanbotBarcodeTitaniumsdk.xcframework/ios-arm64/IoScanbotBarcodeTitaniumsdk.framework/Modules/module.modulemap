@@ -1,0 +1,11 @@
+framework module IoScanbotBarcodeTitaniumsdk {
+  umbrella header "IoScanbotBarcodeTitaniumsdk.h"
+
+  export *
+  module * { export * }
+}
+
+module IoScanbotBarcodeTitaniumsdk.Swift {
+    header "IoScanbotBarcodeTitaniumsdk-Swift.h"
+    requires objc
+}

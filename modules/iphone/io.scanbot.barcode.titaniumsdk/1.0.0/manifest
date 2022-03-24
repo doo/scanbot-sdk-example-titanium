@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: arm64 x86_64
+mac: true
+description: ScanbotTitaniumBarcodeSDK
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2021 by Your Company
+
+# these should not be edited
+name: ScanbotTitaniumBarcodeSDK
+moduleid: io.scanbot.barcode.titaniumsdk
+guid: c4b5e0b4-17c2-483e-801c-8687b2a43de0
+platform: iphone
+minsdk: 9.3.2.GA

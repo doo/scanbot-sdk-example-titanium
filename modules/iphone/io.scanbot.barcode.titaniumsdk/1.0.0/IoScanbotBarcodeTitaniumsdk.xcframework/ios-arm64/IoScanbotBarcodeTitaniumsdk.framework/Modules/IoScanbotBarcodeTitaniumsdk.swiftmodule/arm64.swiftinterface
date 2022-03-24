@@ -1,0 +1,63 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios12.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name IoScanbotBarcodeTitaniumsdk
+import CoreGraphics
+import Foundation
+@_exported import IoScanbotBarcodeTitaniumsdk
+import ScanbotBarcodeScannerSDK
+import Swift
+import TitaniumKit
+import UIKit
+import _Concurrency
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ScanbotTitaniumConfiguration : ObjectiveC.NSObject {
+  @objc public var licenseKey: Swift.String
+  @objc public var loggingEnabled: Swift.Bool
+  @objc public var storageImageQuality: Swift.Int
+  @objc public var storageBaseDirectory: Swift.String
+  @objc public var fileEncryptionPassword: Swift.String
+  @objc public var fileEncryptionMode: ScanbotBarcodeScannerSDK.SBSDKAESEncrypterMode
+  @objc deinit
+}
+extension ScanbotBarcodeScannerSDK.dooLicenseStatus {
+  public var description: Swift.String {
+    get
+  }
+}
+extension Swift.Collection {
+  public subscript(safe index: Self.Index) -> Self.Element? {
+    get
+  }
+}
+public struct SBNWBindingMap<F, T> where F : Swift.Hashable, T : Swift.Hashable {
+}
+public struct ScanbotTitaniumAnyValueBindingMap<KeyType, ValueType> where KeyType : Swift.Hashable, ValueType : Swift.Equatable {
+}
+@_inheritsConvenienceInitializers @objc public class JSONUtils : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension ScanbotBarcodeScannerSDK.SBSDKBarcodeScannerResult {
+  public func toSdkJson() -> [Swift.String : Any]
+}
+@_inheritsConvenienceInitializers @objc public class ScanbotTitaniumSdkSetup : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class ScanbotTitaniumSharedConfiguration : ObjectiveC.NSObject {
+  @objc public var sdkConfiguration: IoScanbotBarcodeTitaniumsdk.ScanbotTitaniumConfiguration
+  @objc public var isSDKInitialized: Swift.Bool
+  @objc public static var defaultConfiguration: IoScanbotBarcodeTitaniumsdk.ScanbotTitaniumSharedConfiguration {
+    @objc get
+  }
+  public static var isSDKInitialized: Swift.Bool {
+    get
+  }
+  @objc deinit
+}
+extension ScanbotBarcodeScannerSDK.SBSDKBarcodeType {
+  @objc dynamic public func toSdkJson() -> Swift.String?
+  @objc public static func fromSdkJson(_ typeName: Swift.String) -> ScanbotBarcodeScannerSDK.SBSDKBarcodeType?
+}
+extension UIKit.UIColor {
+  convenience public init?(hex: Swift.String)
+}

@@ -6,13 +6,13 @@ version: 1.0.0
 apiversion: 4
 architectures: arm64-v8a armeabi-v7a x86 x86_64
 description: ScanbotTitaniumBarcodeSDK
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2021 by Your Company
+author: Scanbot - doo GMBH
+license: Scanbot - doo GMBH 2022 - All rights reserved
+copyright: Copyright (c) 2022 by doo GMBH - Scanbot
 
 # these should not be edited
 name: ScanbotTitaniumBarcodeSDK
 moduleid: io.scanbot.barcode.titaniumsdk
-guid: dd202109-8ab8-42ff-8698-0b6bbfd237af
+guid: c4b5e0b4-17c2-483e-801c-8687b2a43de0
 platform: android
-minsdk: 10.1.1.GA
+minsdk: 9.3.2.GA
