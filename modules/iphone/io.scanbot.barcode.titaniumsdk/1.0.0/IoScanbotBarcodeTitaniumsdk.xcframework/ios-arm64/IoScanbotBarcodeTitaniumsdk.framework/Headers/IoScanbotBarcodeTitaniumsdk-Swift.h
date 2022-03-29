@@ -214,6 +214,7 @@ SWIFT_CLASS("_TtC27IoScanbotBarcodeTitaniumsdk9JSONUtils")
 @end
 
 
+
 @class NSString;
 
 @interface SBSDKBarcodeType (SWIFT_EXTENSION(IoScanbotBarcodeTitaniumsdk))

@@ -61,3 +61,7 @@ extension ScanbotBarcodeScannerSDK.SBSDKBarcodeType {
 extension UIKit.UIColor {
   convenience public init?(hex: Swift.String)
 }
+extension ScanbotBarcodeScannerSDK.SBSDKBarcodeDocumentType {
+  public static func fromSdkJson(_ string: Swift.String) -> ScanbotBarcodeScannerSDK.SBSDKBarcodeDocumentType?
+  public func toSdkJson() -> Swift.String?
+}

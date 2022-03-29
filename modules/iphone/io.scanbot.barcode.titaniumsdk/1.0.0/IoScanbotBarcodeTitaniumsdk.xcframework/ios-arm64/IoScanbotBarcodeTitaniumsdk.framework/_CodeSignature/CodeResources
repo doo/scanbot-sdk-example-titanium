@@ -450,7 +450,7 @@
 		</data>
 		<key>Frameworks/ScanbotBarcodeScannerSDK.framework/ScanbotBarcodeScannerSDK</key>
 		<data>
-		aPV2pnCKBdJ2AN14Q6sEgCv7Yh8=
+		DrmB1278unoxODAtUhg9jhI/07Y=
 		</data>
 		<key>Frameworks/ScanbotBarcodeScannerSDK.framework/ScanbotSDK.bundle/Bleep.m4a</key>
 		<data>
@@ -506,7 +506,7 @@
 		</data>
 		<key>Headers/IoScanbotBarcodeTitaniumsdk-Swift.h</key>
 		<data>
-		bl9OtkSSzDpmATZbWoSiEe00aNg=
+		PnszQbI32apV1XlywXhg7Qs6hf4=
 		</data>
 		<key>Headers/IoScanbotBarcodeTitaniumsdk.h</key>
 		<data>
@@ -526,11 +526,11 @@
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		XJ0dZ5zZkzkenbQ8JMGxJb//VDY=
+		NsvTGkY/KO6BwFd+IZVUh/2fr7A=
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		oiLccf5l+I7sPfq/CnaVYGrs5YE=
+		eRjyvlipZl5dPslfQdcjkEu9Rbg=
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -538,11 +538,11 @@
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		XJ0dZ5zZkzkenbQ8JMGxJb//VDY=
+		NsvTGkY/KO6BwFd+IZVUh/2fr7A=
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		oiLccf5l+I7sPfq/CnaVYGrs5YE=
+		eRjyvlipZl5dPslfQdcjkEu9Rbg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1332,7 +1332,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BNGjhCsT1LgBb41vRAG07YrNeLLRohMJgtVWqS8bznM=
+			1GHzcyIkccZPw6yQ0yADvgYhijysksS7lrYZON7ln9Q=
 			</data>
 		</dict>
 		<key>Frameworks/ScanbotBarcodeScannerSDK.framework/ScanbotSDK.bundle/Bleep.m4a</key>
@@ -1430,7 +1430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOEkr9zR+IMYvam3d9stSaob0Lnduqd0WjhiezsSHq0=
+			Wtl7FN089gMohDYC+chlaiCT9i2LRVIRgUiFH4hI1Eg=
 			</data>
 		</dict>
 		<key>Headers/IoScanbotBarcodeTitaniumsdk.h</key>
@@ -1458,14 +1458,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J7xo1uVwqS18ltM55SxC3hd3fmDTNb17O0hxq4cG0hY=
+			PkOXmK447/EV4sYFn4Vo3vnWIVrbD1cvxJ18QaBZkXQ=
 			</data>
 		</dict>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEfKHPLr7NmHEOdGDJ3Zwce3yNo5+F/rqw8IacwR/V0=
+			kLReoxRwASdp64PDl8vKKdAF9nH9v6d/RhW4yyxJBY0=
 			</data>
 		</dict>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64.swiftdoc</key>
@@ -1479,14 +1479,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			J7xo1uVwqS18ltM55SxC3hd3fmDTNb17O0hxq4cG0hY=
+			PkOXmK447/EV4sYFn4Vo3vnWIVrbD1cvxJ18QaBZkXQ=
 			</data>
 		</dict>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AEfKHPLr7NmHEOdGDJ3Zwce3yNo5+F/rqw8IacwR/V0=
+			kLReoxRwASdp64PDl8vKKdAF9nH9v6d/RhW4yyxJBY0=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

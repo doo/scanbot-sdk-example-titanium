@@ -1,12 +1,21 @@
 
 import ScanbotBarcodeSDK from 'io.scanbot.barcode.titaniumsdk';
 import Styles from './src/common/styles'
+import { parseBarcodeScannerResult, parseLicenseInfo } from './src/utils/results-parser';
+
+/*
+* TODO Add the Scanbot SDK license key here.
+* Please note: The Scanbot SDK will run without a license key for one minute per session!
+* After the trial period is over all Scanbot SDK functions as well as the UI components will stop working
+* or may be terminated. You can get an unrestricted "no-strings-attached" 30 day trial license key for free.
+* Please submit the trial license form (https://scanbot.io/en/sdk/demo/trial) on our website by using
+* the app identifier "io.scanbot.example.sdk.reactnative" of this example app.
+*/
+const LICENSE_KEY = ''
 
 // Initialize Scanbot SDK
 ScanbotBarcodeSDK.initializeSdk({
-    // LICENSE KEY - an empty string activates the 60 seconds trial mode;
-    // after that the SDK features will no longer work
-    licenseKey: '',
+    licenseKey: LICENSE_KEY,
     useCameraX: true
 });
 
@@ -20,8 +29,8 @@ let win = Ti.UI.createWindow({
     backgroundColor: '#fff',
 });
 
-Ti.API.info(Object.keys(ScanbotBarcodeSDK))
-const uiProxy = ScanbotBarcodeSDK.createScanbotBarcodeUi({
+// We use `createScanbotBarcodeUi` to initialize the UI proxy
+const scanbotRtu = ScanbotBarcodeSDK.createScanbotBarcodeUi({
     lifecycleContainer: win
 })
 
@@ -78,8 +87,43 @@ listView.addEventListener('itemclick', async (e) => {
     switch(e.itemId) {
         case 'start-barcode-scanner':
             try {
-                uiProxy.startBarcodeScanner({}, (result) => {
-                    alert(JSON.stringify(result)); 
+                var configuration = {
+                    // We use a square finder view
+                    finderAspectRatio: {
+                        width: 1,
+                        height: 1
+                    },
+                    
+                    // We give it a blue color
+                    finderLineColor: '#0000ff',
+
+                    // We also explictly set the barcodes types that we want to detect (optional)
+                    barcodeFormats: [
+                        'AZTEC',
+                        'CODABAR',
+                        'CODE_39',
+                        'CODE_93',
+                        'CODE_128',
+                        'DATA_MATRIX',
+                        'EAN_8',
+                        'EAN_13',
+                        'ITF',
+                        'PDF_417',
+                        'QR_CODE',
+                        'RSS_14',
+                        'RSS_EXPANDED',
+                        'UPC_A',
+                        'UPC_E',
+                        'MSI_PLESSEY'
+                    ]
+                }
+
+                // Finally, we start the barcode scanner with the configuration we have just created
+                scanbotRtu.startBarcodeScanner(configuration, (result) => {
+                    if (result.status !== 'OK') {
+                        return;
+                    }
+                    alert(parseBarcodeScannerResult(result)); 
                 })
             } catch(error) {
                 Ti.API.error("Barcode Scanner Error: " + error);
@@ -87,11 +131,10 @@ listView.addEventListener('itemclick', async (e) => {
             break;
         case 'get-license-info':
             let licenseInfo = ScanbotBarcodeSDK.getLicenseInfo();
-            alert(JSON.stringify(licenseInfo))
+            alert(parseLicenseInfo(licenseInfo));
             break;
     }
 });
 
 win.add(listView);
-
 win.open();

@@ -506,7 +506,7 @@
 		</data>
 		<key>Headers/IoScanbotBarcodeTitaniumsdk-Swift.h</key>
 		<data>
-		bl9OtkSSzDpmATZbWoSiEe00aNg=
+		PnszQbI32apV1XlywXhg7Qs6hf4=
 		</data>
 		<key>Headers/IoScanbotBarcodeTitaniumsdk.h</key>
 		<data>
@@ -526,11 +526,11 @@
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		taXmcAFkczYVDjs7WbU43GyP3y4=
+		A/rICeAuKzXNmGdrMxs4SzEojKM=
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		tXoRFaNDD8z9bneazeCs1GT4iac=
+		oGyC3mmPs6PaRAtVb08OyFN9m0s=
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64.swiftdoc</key>
 		<data>
@@ -538,11 +538,11 @@
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64.swiftinterface</key>
 		<data>
-		taXmcAFkczYVDjs7WbU43GyP3y4=
+		A/rICeAuKzXNmGdrMxs4SzEojKM=
 		</data>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		tXoRFaNDD8z9bneazeCs1GT4iac=
+		oGyC3mmPs6PaRAtVb08OyFN9m0s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1430,7 +1430,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			SOEkr9zR+IMYvam3d9stSaob0Lnduqd0WjhiezsSHq0=
+			Wtl7FN089gMohDYC+chlaiCT9i2LRVIRgUiFH4hI1Eg=
 			</data>
 		</dict>
 		<key>Headers/IoScanbotBarcodeTitaniumsdk.h</key>
@@ -1458,14 +1458,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n26HJdtIfPeXHeXyQlvwV0zzsFvbU1PBm2sDeh1MZKo=
+			EQr9KnH5OgtHb3+rD9YmLPIE5MAeWPM2hA/Evr8PLg0=
 			</data>
 		</dict>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMTvg9nxjFL7q2QBNP9InrBktQsEWfxRr3owGfjSQXU=
+			LIpLOOW+AK9KSaw5bBZmmZ46F8PB2PqqEyXomqFqndY=
 			</data>
 		</dict>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64.swiftdoc</key>
@@ -1479,14 +1479,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			n26HJdtIfPeXHeXyQlvwV0zzsFvbU1PBm2sDeh1MZKo=
+			EQr9KnH5OgtHb3+rD9YmLPIE5MAeWPM2hA/Evr8PLg0=
 			</data>
 		</dict>
 		<key>Modules/IoScanbotBarcodeTitaniumsdk.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			pMTvg9nxjFL7q2QBNP9InrBktQsEWfxRr3owGfjSQXU=
+			LIpLOOW+AK9KSaw5bBZmmZ46F8PB2PqqEyXomqFqndY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

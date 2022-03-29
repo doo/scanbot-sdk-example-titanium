@@ -21,7 +21,6 @@ set -e
 
 # Check your Titanium SDK version and be sure to set JAVA_HOME accordingly
 # The project has been tested with Titanium SDK version 10.1.1 and JDK 11
-
 # JAVA_HOME=~/.sdkman/candidates/java/11.0.14.9.1-amzn
 
 
