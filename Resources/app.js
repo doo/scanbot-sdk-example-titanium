@@ -78,9 +78,7 @@ const createHeader = (title) => {
 }
 
 let section = Ti.UI.createListSection({ headerView: createHeader('Features'), items: actions});
-
 sections.push(section);
-
 listView.sections = sections;
 
 listView.addEventListener('itemclick', async (e) => {
