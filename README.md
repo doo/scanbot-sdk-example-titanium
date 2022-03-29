@@ -60,8 +60,42 @@ To build and run the demo on an iOS device, you can execute:
 
 Before running it, connect your iOS device via USB, and make sure you have authorized your PC for debugging.
 
-## How does it work?
-To setup Scanbot SDK you just have to import the module and initialize the SDK, like this:
+## Setup from scratch
+
+If you wonder how you can set up the SDK in your project, here is a brief guide.
+
+Before starting coding, there are a few thing to take care of:
+
+1. Add `platform/android/build.gradle`and paste the following content:
+
+```gradle
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://nexus.scanbot.io/nexus/content/repositories/releases/'
+    }
+    maven {
+        url 'https://nexus.scanbot.io/nexus/content/repositories/snapshots/'
+    }
+}
+```
+
+2. Add permissions in your `tiapp.xml`
+
+For iOS, under 'plist, dict' key:
+```xml
+<key>NSCameraUsageDescription</key>
+<string>The app needs to access your camera in order to scan barcodes</string>
+```
+for Android, under manifest key:
+```xml
+<uses-permission android:name="android.permission.CAMERA" />
+<uses-feature android:name="android.hardware.camera" />
+```
+
+## How to use the SDK
+
+First thing, you import the module and initialize the SDK, like this:
 
 ```javascript
 import ScanbotBarcodeSDK from 'io.scanbot.barcode.titaniumsdk';
@@ -70,7 +104,8 @@ ScanbotBarcodeSDK.initializeSdk({
 });
 ```
 
-## Using the Barcode Scanner
+**Using the Barcode Scanner**
+
 After you have created your window, through `Ti.UI.createWindow`, you can initialize a proxy, like this:
 
 ```javascript
@@ -78,6 +113,7 @@ const scanbotRtu = ScanbotBarcodeSDK.createScanbotBarcodeUi({
     lifecycleContainer: YOUR_WINDOW
 })
 ```
+
 And open our Barcode Scanner:
 ```javascript
 let configuration = {}
